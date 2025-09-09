@@ -81,7 +81,7 @@ const aboutUs = () => {
                 slidesPerView={1}
                 loop={true}
                 // centeredSlides={true}
-                pagination={{ clickable: true }}
+                // pagination={{ clickable: true }}
                 navigation={{
                     nextEl: ".swiper-button-next-custom",
                     prevEl: ".swiper-button-prev-custom",
@@ -93,8 +93,8 @@ const aboutUs = () => {
                 className="w-full max-w-6xl "
             >
                 {testimonials.map((item, index) => (
-                    <SwiperSlide key={item.id} className=''>
-                        <div className={`card relative flex flex-col items-center text-center rounded-2xl shadow p-8 pt-14 transition-all ease text-[#333333] ${countId === item.id ? "-mt-10" : "mt-0"}`}>
+                    <SwiperSlide key={item.id} className='p-[15px]'>
+                        <div className={`card relative flex flex-col items-center text-center rounded-2xl max-xl:shadow:2xl max-xl:transition-all max-xl:border border-[#CAD3D7] shadow p-8 pt-14 transition-all ease text-[#333333] ${countId === item.id ? "-mt-10" : "mt-0"}`}>
                             <img
                                 src={item.image}
                                 alt={item.name}

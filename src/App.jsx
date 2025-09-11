@@ -1,5 +1,5 @@
 import React from 'react'
-import AboutUs from "./Components/Talk about us/AboutUs"
+import MyPortfolio from "./Components/MyPortfolio/MyPortfolio"
 
 const App = () => {
   return (

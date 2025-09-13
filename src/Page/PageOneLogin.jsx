@@ -1,11 +1,12 @@
 import React from 'react'
 import { TbMailFilled } from "react-icons/tb";
+import { Link } from 'react-router';
 
 
 function PageOne() {
   return (
     <div>
-        <div className="w-[794px] px-[50px] pt-[44px] pb-[120px] rounded-[10px] shadow-[0px_4px_45px_0px_#0000001F] text-center sm:px-[118px] mx-[10px]">
+        <div className="w-[794px] px-[50px] pt-[44px] pb-[120px] rounded-[10px] shadow-[0px_4px_45px_0px_#0000001F] text-center sm:px-[118px] mb-[60px]">
                   <div>
                     <h2 className="text-[33px] font-bold mb-[52px]">
                       Log in to your account
@@ -34,7 +35,7 @@ function PageOne() {
                     </button>
                     <h2 className="text-[16px]">
                       Don’t have account?
-                      <span className="text-[#FF4C4A]">Sign up</span>
+                      <Link to={'/signup'} className="text-[#FF4C4A]">Sign up</Link>
                     </h2>
                   </div>
                 </div>

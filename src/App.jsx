@@ -1,15 +1,22 @@
 import React from 'react'
-import LoginPage from './Page/LoginPage'
-import TopSkils from './Components/Top_Skils/TopSkils.jsx';
-import Home from './Page/Home.jsx';
-import MyPortfolio from './Components/MyPortfolio/MyPortfolio.jsx';
-
+import { Route, Routes } from 'react-router';
+import Home from "./Page/Home"
+import LoginPage from './Page/LoginPage.jsx';
+import Layout from './Page/Layout.jsx';
+import PageOneSign from './Page/PageOneSign.jsx';
 const App = () => {
   return (
     <>
-      {/* <LoginPage /> */}
-      {/* <TopSkils/> */}
-      <Home />
+      <Routes>
+        <Route index element={<Home />} />
+        <Route element={<Layout />}>
+          <Route path='/login' element={<LoginPage />} />
+          <Route path='/signup' element={<PageOneSign />} />
+
+        </Route>
+        {/* <Route path='/signup' element={ } /> */}
+
+      </Routes>
     </>
   )
 }

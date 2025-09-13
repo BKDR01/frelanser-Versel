@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
 import { Swiper, SwiperSlide } from "swiper/react";
-import card1 from "./../../../assets/img/Rectangle 28.png";
-import card3 from "./../../../assets/img/Rectangle 32.png";
-import card4 from "./../../../assets/img/Rectangle 34.png";
+import card1 from './../../assets/img/Rectangle 28.png';
+import card4 from './../../assets/img/Rectangle 32.png';
+import card3 from './../../assets/img/Rectangle 34.png';
+
 import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";

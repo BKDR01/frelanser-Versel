@@ -1,11 +1,11 @@
 import React from 'react'
 import Footer from './Components/Footer/Footer'
-
+import ProfView from './Components/ProfileView/ProfView.jsx';
 const App = () => {
   return (
     <div>
-      <Footer></Footer>
-
+      <ProfView />
+      {/* <Footer /> */}
     </div>
   )
 }

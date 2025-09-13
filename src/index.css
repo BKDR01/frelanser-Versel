@@ -1,5 +1,5 @@
-@import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
 
 .p-selectbutton .p-button {
     border: none;
@@ -53,4 +53,11 @@
 
 footer {
     font-family: "Montserrat", sans-serif;
+}
+
+.banner2 {
+    background-image: url('./assets/img/banner2header.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }

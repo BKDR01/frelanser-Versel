@@ -4,12 +4,11 @@ import Header from '../Components/Header/Header'
 import Greatworks from '../Components/Greatworks/Greatworks'
 import UPTech from '../Components/UPTech/UPTech'
 import AboutUs from '../Components/Talk about us/AboutUs'
+import Footer from '../Components/Footer/Footer'
 const Home = () => {
     return (
-        <div className='pb-[20px]'>
-            <header>
-                <Header />
-            </header>
+        <>
+            <Header />
             <main>
                 <section>
                     <TopSkils />
@@ -20,11 +19,13 @@ const Home = () => {
                 <section>
                     <UPTech />
                 </section>
-                <section>
+                {/* <section>
                     <AboutUs />
-                </section>
+                </section> */}
             </main>
-        </div>
+
+            {/* <Footer /> */}
+        </>
     )
 }
 

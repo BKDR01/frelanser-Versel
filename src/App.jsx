@@ -6,11 +6,11 @@ import MyPortfolio from './Components/MyPortfolio/MyPortfolio.jsx';
 
 const App = () => {
   return (
-    <div>
+    <>
       {/* <LoginPage /> */}
       {/* <TopSkils/> */}
       <Home />
-    </div>
+    </>
   )
 }
 

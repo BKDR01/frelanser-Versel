@@ -38,7 +38,7 @@ const Nav = () => {
       </button>
 
       <div
-        className={`fixed top-0 right-0 h-full w-2/3 bg-white shadow-lg transform transition-transform duration-300 z-50 ${isOpen ? "translate-x-0" : "translate-x-full"
+        className={`fixed top-0 right-0 h-full px-6 w-2/3 bg-white shadow-lg transform transition-transform duration-300 z-50 ${isOpen ? "translate-x-0" : "translate-x-full"
           }`}
       >
         <button
@@ -48,14 +48,16 @@ const Nav = () => {
           <IoMdClose />
         </button>
 
-        <ul className="flex flex-col items-start gap-6 mt-20 px-6">
+        <ul className="flex flex-col items-start gap-6 mt-20 ">
           <li><a href="">Find Talent</a></li>
           <li><a href="">Find Work</a></li>
           <li><a href="">Why UpTechhunt</a></li>
           <li><button className="py-2 px-6 bg-gray-200 rounded-2xl w-full">Log in</button></li>
           <li><button className="py-2 px-6 bg-gray-200 rounded-2xl w-full">Sign in</button></li>
-          <li><input className="border-black border-2 w-[300px] rounded-3xl pl-5 py-[3px] max-md:hidden" type="text" placeholder="Search" /></li>
+
         </ul>
+
+        <input className="border-black border-2 max-w-[300px] rounded-3xl pl-5 py-[3px] mt-6 max-md:block" type="text" placeholder="Search" />
       </div>
 
       {isOpen && (

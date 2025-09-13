@@ -26,3 +26,26 @@
     overflow: visible !important;
     overflow-x: clip !important;
 }
+
+#wert {
+    font-size: 25px;
+}
+
+#firstlu:hover {
+    background-color: red;
+    transition: 0, 7s;
+    color: white;
+}
+
+#run:hover {
+    background-color: black;
+    transition: 0.7s;
+    border: black;
+}
+
+.bg {
+    background-image: url(./assets//img/bg-banner.png);
+}
+.relative{
+    position: relative;
+}

@@ -1,5 +1,5 @@
 import React from 'react'
-import imager from './../../assets/img/Frame.png';
+import imager from './../../assets/img/Frame1.png';
 import Nav from '../Nav/Nav'
 import Banner2 from '../Banner2/Banner2';
 const Header = () => {
@@ -18,8 +18,8 @@ const Header = () => {
               <p className='max-w-[647px] text-[16px] max-md:text-center'>Find the best Talent and best works based on your skills from around the world.</p>
             </div>
             <div className='mt-[28px] max-md:justify-center flex gap-4 max-sm:justigy-center'>
-              <button id='run' className='border px-[36px] py-[12px] rounded-3xl'>Find Talent</button>
-              <button id='run' className='border px-[36px] py-[12px] rounded-3xl'>Find Work</button>
+              <button id='run' className='outline px-[36px] py-[12px] rounded-3xl'>Find Talent</button>
+              <button id='run' className='outline px-[36px] py-[12px] rounded-3xl'>Find Work</button>
             </div>
           </div>
 

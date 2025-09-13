@@ -66,7 +66,7 @@ const AboutUs = () => {
         setCountId((prev) => (prev > 1 ? prev - 1 : testimonials.length));
     };
     return (
-        <>
+        <div className='mb-20'>
             <h2 className="text-[53px] font-bold mb-[20px] mt-[62px] text-center">
                 People talk about us
             </h2>
@@ -75,7 +75,7 @@ const AboutUs = () => {
                 tempor incididunt ut labore et dolore magna aliqua.
             </p>
 
-            <div>
+            <div className='relative'>
                 <Swiper
                     modules={[Pagination, Navigation]}
                     spaceBetween={40}
@@ -121,7 +121,7 @@ const AboutUs = () => {
                     &#10095;
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 

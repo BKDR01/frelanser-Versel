@@ -19,12 +19,12 @@ const Home = () => {
                 <section>
                     <UPTech />
                 </section>
-                {/* <section>
+                <section>
                     <AboutUs />
-                </section> */}
+                </section>
             </main>
 
-            {/* <Footer /> */}
+            <Footer />
         </>
     )
 }

@@ -4,7 +4,7 @@ import PlayMar from './../../assets/icons/playmrkt.png';
 const Footer = () => {
     return (
         <footer className="bg-[#1F1F1F]">
-            <div className="max-w-[1210px] mx-auto pt-[90px] pb-[55px]">
+            <div className="w-[1210px] mx-auto pt-[90px] pb-[55px]">
                 <div className="flex pb-[55px] border-b-[1px] border-b-[#FFFFFF]">
 
                     <div className='leading-[34px] mr-[84px]'>

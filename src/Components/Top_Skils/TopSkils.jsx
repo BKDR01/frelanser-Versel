@@ -53,7 +53,7 @@ function TopSkils() {
   ];
 
   return (
-    <div className="max-w-[1240px] mx-auto pt-[80px]">
+    <div className="max-w-[1240px] mx-auto mb-[140px] pt-[80px]">
       <h1 className="text-[24px] sm:text-[32px] md:text-[38px] lg:text-[43px] font-bold text-center">Top skills categories </h1>
       <div className="mt-6">
         <div className="block sm:hidden">

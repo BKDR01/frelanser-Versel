@@ -3,9 +3,10 @@ import TopSkils from '../Components/Top_Skils/TopSkils'
 import Header from '../Components/Header/Header'
 import Greatworks from '../Components/Greatworks/Greatworks'
 import UPTech from '../Components/UPTech/UPTech'
+import AboutUs from '../Components/Talk about us/AboutUs'
 const Home = () => {
     return (
-        <div>
+        <div className='pb-[20px]'>
             <header>
                 <Header />
             </header>
@@ -18,6 +19,9 @@ const Home = () => {
                 </section>
                 <section>
                     <UPTech />
+                </section>
+                <section>
+                    <AboutUs />
                 </section>
             </main>
         </div>

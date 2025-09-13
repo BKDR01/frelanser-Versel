@@ -21,3 +21,8 @@
   color: #ef4444;
   margin-right: 8px;
 }
+
+.swiper {
+    overflow: visible !important;
+    overflow-x: clip !important;
+}

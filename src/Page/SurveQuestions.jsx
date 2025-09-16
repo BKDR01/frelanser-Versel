@@ -11,8 +11,8 @@ import Page6creatProfil from "../Components/SingFlowPages/Page6creatProfil.jsx";
 import PageSevenProfil from "../Components/SingFlowPages/PageSevenProfil.jsx";
 import PageEateProfil from "../Components/SingFlowPages/PageEateProfil.jsx";
 import PagenineProfil from "../Components/SingFlowPages/PagenineProfil.jsx";
-import TheEndPage from "../Components/SingFlowPages/theEndPage.jsx";
 import { useNavigate, useParams } from "react-router";
+import TheEndPage from "../Components/SingFlowPages/theEndPage.jsx";
 
 const SurveQuestions = () => {
 
@@ -33,7 +33,7 @@ const SurveQuestions = () => {
       {/* <PageSevenProfil /> */}
       {/* <PageEateProfil /> */}
       {/* <PagenineProfil /> */}
-      {/* <TheEndPage /> */}
+      <TheEndPage />
     </div>
   );
 };

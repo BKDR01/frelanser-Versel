@@ -3,7 +3,7 @@ import { Dropdown } from 'primereact/dropdown';
 import { InputMask } from "primereact/inputmask";
 import { ChevronDownIcon } from 'primereact/icons/chevrondown';
 import { ChevronRightIcon } from 'primereact/icons/chevronright';
-import Profil from './../../assets/img/Mask Group.png';
+import Profil from './../../assets/img/MaskGroup.png';
 import { RiArrowLeftWideLine } from "react-icons/ri";
 
 function TheEndPage() {

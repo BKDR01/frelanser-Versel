@@ -27,7 +27,8 @@ function PageOneSign() {
   // };
 
   return (
-    <div className="w-[794px] mx-auto mb-[60px] px-[50px] pt-[44px] pb-[120px] rounded-[10px] shadow-[0px_4px_45px_0px_#0000001F] text-center sm:px-[118px] ">
+   <div className="flex justify-center items-center">
+     <div className="w-full max-w-[794px] mx-[10px] mb-[60px] px-[50px] pt-[44px] pb-[120px] rounded-[10px] shadow-[0px_4px_45px_0px_#0000001F] text-center sm:px-[118px] ">
       <div>
         <h2 className="text-[25px] font-bold mb-[37px] sm:text-[33px]">
           Get your free account
@@ -59,7 +60,7 @@ function PageOneSign() {
 
         <button
           to={"/signin/"}
-          onClick={handlePosT}
+          // onClick={handlePosT}
           className="bg-[#FF4C4A] w-full h-[45px] rounded-[100px] text-white text-[16px] mb-[28px]"
         >
           Continue with Email
@@ -72,6 +73,7 @@ function PageOneSign() {
         </h2>
       </div>
     </div>
+   </div>
   );
 }
 

@@ -28,7 +28,15 @@ const Nav = () => {
 
       <div className="flex max-md:hidden gap-4">
         <Link to={'/login'} id="firstlu" className="py-[12px] rounded-3xl px-[36px] bg-white">Log in</Link>
+<<<<<<< HEAD
         <Link to={'/signup'} id="firstlu" className="py-[12px] rounded-3xl px-[36px] bg-white">Sign in</Link>
+=======
+<<<<<<< HEAD
+        <Link to={'/signup'} id="firstlu" className="py-[12px] rounded-3xl px-[36px] bg-white">Sign in</Link>
+=======
+        <Link to={'/signup'} id="firstlu" className="py-[12px] rounded-3xl px-[36px] bg-white">Sign up</Link>
+>>>>>>> 888dd53 (set)
+>>>>>>> d8b98c4e4285c53ed61266e17577bf32026b2b24
       </div>
 
       <button

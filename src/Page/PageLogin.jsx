@@ -3,7 +3,7 @@ import { TbMailFilled } from "react-icons/tb";
 import { IoMdKey } from "react-icons/io";
 import { FaEye } from "react-icons/fa";
 import { FaEyeSlash } from "react-icons/fa";
-import { Link } from "react-router-dom";
+import { Link } from "react-router";
 
 
 function PageLogin() {

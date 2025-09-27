@@ -13,7 +13,7 @@ const Callback = () => {
       localStorage.setItem("accessToken", accessToken);
       localStorage.setItem("refreshToken", refreshToken);
 
-      navigate("/"); // после входа — на главную
+      navigate("/user"); // после входа — на главную
     } else {
       navigate("/login"); // после входа — на главную
     }

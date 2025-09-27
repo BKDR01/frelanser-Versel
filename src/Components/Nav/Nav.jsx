@@ -50,13 +50,6 @@ const Nav = () => {
         >
           Sign in
         </Link>
-        <Link
-          to={"/signup"}
-          id="firstlu"
-          className="py-[12px] rounded-3xl px-[36px] bg-white"
-        >
-          Sign in
-        </Link>
       </div>
 
       <button
@@ -94,6 +87,14 @@ const Nav = () => {
               className="py-2 px-6 bg-gray-200 rounded-2xl w-full"
             >
               Log in
+            </Link>
+          </li>
+          <li>
+            <Link
+              to={"/signup"}
+              className="py-2 px-6 bg-gray-200 rounded-2xl w-full"
+            >
+              Sign in
             </Link>
           </li>
         </ul>

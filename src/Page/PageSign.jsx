@@ -8,7 +8,7 @@ import LogoM from "./../assets/img/Group 36.png";
 import { Link, useNavigate } from "react-router";
 import axios from "axios";
 
-function PageOneSign() {
+function PageSignUp() {
   const api =
     "https://job-portal-production-294a.up.railway.app/api/v1/users/sign-up";
   const navigate = useNavigate();
@@ -43,6 +43,7 @@ function PageOneSign() {
       "_blank",
       "noopener,noreferrer"
     );
+    console.log("dasdas");
   };
 
   return (
@@ -130,4 +131,4 @@ function PageOneSign() {
   );
 }
 
-export default PageOneSign;
+export default PageSignUp;

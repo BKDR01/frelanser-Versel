@@ -6,7 +6,7 @@ import { FaEyeSlash } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 
-function PageOneLogin() {
+function PageLogin() {
   const [showPassword, setShowPassword] = useState(false);
 
   return (
@@ -51,4 +51,4 @@ function PageOneLogin() {
   )
 }
 
-export default PageOneLogin
+export default PageLogin

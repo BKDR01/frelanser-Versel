@@ -96,14 +96,6 @@ const Nav = () => {
               Log in
             </Link>
           </li>
-          <li>
-            <Link
-              to={"/signup"}
-              className="py-2 px-6 bg-gray-200 rounded-2xl w-full"
-            >
-              Sign in
-            </Link>
-          </li>
         </ul>
 
         <input

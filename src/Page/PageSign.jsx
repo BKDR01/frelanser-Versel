@@ -31,19 +31,15 @@ function PageSignUp() {
       });
 
       console.log("true:", res.data);
-      navigate("/");
+      navigate("/user");
     } catch (err) {
       console.error("Error:", err.response?.data || err.message);
     }
   };
 
-  const openNewTab = () => {
-    window.open(
-      "https://job-portal-production-294a.up.railway.app/api/v1/users/google",
-      "_blank",
-      "noopener,noreferrer"
-    );
-    console.log("dasdas");
+  const openGoogleAuth = () => {
+    window.location.href =
+      "https://job-portal-production-294a.up.railway.app/api/v1/users/google";
   };
 
   return (
@@ -54,7 +50,7 @@ function PageSignUp() {
             Sign Up
           </h2>
           <button
-            onClick={openNewTab}
+            onClick={openGoogleAuth}
             className="bg-[#4260DA] w-full h-[45px] border flex items-center justify-center font-semibold gap-[21px] rounded-[100px] text-white text-[16px] mb-[20px]"
           >
             <img src={LogoM} alt="LogoM" /> Continue with Gmail
